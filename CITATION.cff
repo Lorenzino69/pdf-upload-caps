@@ -7,7 +7,7 @@ authors:
   - family-names: Bernal
     given-names: Lorenzo
     affiliation: EasyPDF
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-09-19"
 license: CC-BY-4.0
 url: "https://www.easypdf.fr/blog/pdf-file-size-statistics-2026"
