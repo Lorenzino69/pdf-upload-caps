@@ -10,6 +10,7 @@ authors:
 version: "1.0.1"
 date-released: "2026-09-19"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.22845060
 url: "https://www.easypdf.fr/blog/pdf-file-size-statistics-2026"
 repository-code: "https://github.com/Lorenzino69/pdf-upload-caps"
 keywords:

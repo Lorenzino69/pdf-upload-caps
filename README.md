@@ -1,5 +1,7 @@
 # PDF upload caps on public portals (2026)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22845060.svg)](https://doi.org/10.5281/zenodo.22845060)
+
 How large can a PDF be before a government, university or job portal rejects it? This dataset records the published file size limit of 162 portals in France, the United States, the United Kingdom, Germany, Spain and India, each with the exact wording of the limit and a link to the official page where it was found.
 
 It was collected in September 2026 for the EasyPDF study [The 1 MB Problem: PDF File Size Statistics for 2026](https://www.easypdf.fr/blog/pdf-file-size-statistics-2026) (French version: [Le problème du 1 Mo](https://www.easypdf.fr/fr/blog/statistiques-taille-fichier-pdf-2026)).
