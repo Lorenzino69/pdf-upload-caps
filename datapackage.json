@@ -1,0 +1,69 @@
+{
+  "name": "pdf-upload-caps-2026",
+  "title": "PDF upload caps on public portals (2026)",
+  "description": "Published PDF upload size limits of 162 government, university and job portals in France, the United States, the United Kingdom, Germany, Spain and India, with the exact wording and the official source of each limit.",
+  "version": "1.0.0",
+  "created": "2026-09-19",
+  "homepage": "https://www.easypdf.fr/blog/pdf-file-size-statistics-2026",
+  "keywords": ["pdf", "file size", "upload limit", "e-government", "open data"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "EasyPDF",
+      "path": "https://www.easypdf.fr",
+      "email": "hello@easypdf.fr",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "all-portals",
+      "path": "data/all-portals.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "portal", "type": "string", "description": "Name of the portal or service" },
+          { "name": "country", "type": "string", "description": "FR, US, UK, DE, ES or IN", "constraints": { "enum": ["FR", "US", "UK", "DE", "ES", "IN"] } },
+          { "name": "usage", "type": "string", "description": "What the upload is for" },
+          { "name": "published_cap", "type": "string", "description": "The limit as worded on the source page, or 'not documented'" },
+          { "name": "cap_kb", "type": "integer", "description": "The limit in kilobytes (1 MB = 1,024 KB), empty when not documented" },
+          { "name": "cap_type", "type": "string", "description": "published_cap, recommendation or not_documented", "constraints": { "enum": ["published_cap", "recommendation", "not_documented"] } },
+          { "name": "total_or_max_files", "type": "string", "description": "Limit on the total size of a submission or on the number of files" },
+          { "name": "formats", "type": "string", "description": "Accepted file formats" },
+          { "name": "source_url", "type": "string", "format": "uri", "description": "Page where the figure was read" },
+          { "name": "date_checked", "type": "date", "description": "Date the page was checked" },
+          { "name": "confidence", "type": "string", "description": "official, institutional or not documented, with caveats in brackets" }
+        ],
+        "missingValues": [""]
+      }
+    },
+    {
+      "name": "summary-by-country",
+      "path": "data/summary-by-country.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "country", "type": "string" },
+          { "name": "country_name", "type": "string" },
+          { "name": "entries", "type": "integer" },
+          { "name": "published_caps", "type": "integer" },
+          { "name": "recommendations", "type": "integer" },
+          { "name": "not_documented", "type": "integer" },
+          { "name": "min_cap_kb", "type": "integer" },
+          { "name": "median_cap_kb", "type": "integer" },
+          { "name": "max_cap_kb", "type": "integer" }
+        ]
+      }
+    }
+  ]
+}

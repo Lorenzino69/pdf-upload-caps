@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and link to the study."
+type: dataset
+title: "PDF upload caps on public portals (2026)"
+abstract: "Published PDF upload size limits of 162 government, university and job portals in France, the United States, the United Kingdom, Germany, Spain and India, with the exact wording and the official source of each limit."
+authors:
+  - family-names: Bernal
+    given-names: Lorenzo
+    affiliation: EasyPDF
+version: "1.0.0"
+date-released: "2026-09-19"
+license: CC-BY-4.0
+url: "https://www.easypdf.fr/blog/pdf-file-size-statistics-2026"
+repository-code: "https://github.com/Lorenzino69/pdf-upload-caps"
+keywords:
+  - pdf
+  - file size
+  - upload limit
+  - e-government
+  - open data
