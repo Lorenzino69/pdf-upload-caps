@@ -1,7 +1,7 @@
 {
   "title": "PDF upload caps on public portals (2026)",
   "upload_type": "dataset",
-  "description": "<p>Published PDF upload size limits of 162 government, university and job portals in France, the United States, the United Kingdom, Germany, Spain and India, with the exact wording and the official source of each limit.</p><p>Collected for the EasyPDF study <a href=\"https://www.easypdf.fr/blog/pdf-file-size-statistics-2026\">The 1 MB Problem: PDF File Size Statistics for 2026</a>.</p>",
+  "description": "<p>Published PDF upload size limits of 180 government, university and job portals in France, the United States, the United Kingdom, Germany, Spain and India, with the exact wording and the official source of each limit.</p><p>Collected for the EasyPDF study <a href=\"https://www.easypdf.fr/blog/pdf-file-size-statistics-2026\">The 1 MB Problem: PDF File Size Statistics for 2026</a>.</p>",
   "creators": [{ "name": "Bernal, Lorenzo", "affiliation": "EasyPDF" }],
   "license": "cc-by-4.0",
   "keywords": ["pdf", "file size", "upload limit", "e-government", "open data"],

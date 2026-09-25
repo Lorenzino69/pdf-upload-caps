@@ -386,7 +386,7 @@
     "total_or_max_files": "not stated",
     "formats": "PDF (score report)",
     "source_url": "https://appsupport.commonapp.org/s/article/SAT-score-report-PDF-file-size-2000-KB",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -399,7 +399,7 @@
     "total_or_max_files": "not stated",
     "formats": "Microsoft Word or PDF",
     "source_url": "https://www.linkedin.com/help/linkedin/answer/a510363/",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -410,9 +410,9 @@
     "cap_kb": "5120",
     "cap_type": "published_cap",
     "total_or_max_files": "not stated",
-    "formats": "PDF recommended; GIF, JPG, JPEG, PNG, RTF, TXT, ODT, DOC, DOCX",
-    "source_url": "https://help.usajobs.gov/faq/application/documents/resume/what-to-include",
-    "date_checked": "2026-09-15",
+    "formats": "PDF recommended; GIF, JPG, JPEG, PNG, RTF, TXT, ODT, DOC, DOCX (no PDF portfolios)",
+    "source_url": "https://usajobshelp.opm.gov/hc/en-us/articles/52839989720851-How-do-I-write-a-resume-for-a-federal-job",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -425,7 +425,7 @@
     "total_or_max_files": "not stated",
     "formats": ".pdf, .jpeg, .jpg, .gif, .xml, .png, .tiff, .bmp",
     "source_url": "https://www.healthcare.gov/help/how-to-upload-documents/",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -438,7 +438,7 @@
     "total_or_max_files": "not stated",
     "formats": "PDF, JPG, JPEG; TIF/TIFF for some forms",
     "source_url": "https://www.uscis.gov/file-online/tips-for-filing-forms-online",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -451,7 +451,7 @@
     "total_or_max_files": "up to 40 files; PDFs limited to 120 pages each",
     "formats": "JPEG, PNG, PDF",
     "source_url": "https://www.irs.gov/newsroom/irs-expands-secure-digital-correspondence-for-taxpayers",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -464,7 +464,7 @@
     "total_or_max_files": "each submission cannot exceed 50 files",
     "formats": "not stated on page",
     "source_url": "https://www.ssa.gov/faqs/en/questions/KA-10122.html",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -477,21 +477,21 @@
     "total_or_max_files": "not stated",
     "formats": "PDF, GIF, JPEG, BMP, TXT",
     "source_url": "https://www.va.gov/resources/claim-status-tool-faqs/",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
     "portal": "PACER / CM-ECF (C.D. California)",
     "country": "US",
-    "usage": "Federal court e-filing (limit set per court; 35 MB in this district)",
-    "published_cap": "35 MB per PDF (C.D. Cal.); varies by court",
+    "usage": "Federal court e-filing, U.S. District Court for the Central District of California",
+    "published_cap": "35 MB per PDF",
     "cap_kb": "35840",
     "cap_type": "published_cap",
     "total_or_max_files": "one document per file",
     "formats": "PDF",
     "source_url": "https://www.cacd.uscourts.gov/news/pdf-file-size-limit-increase-cmecf",
-    "date_checked": "2026-09-15",
-    "confidence": "official"
+    "date_checked": "2026-09-25",
+    "confidence": "institutional (court filing rules; other courts set different limits)"
   },
   {
     "portal": "Greenhouse",
@@ -503,7 +503,7 @@
     "total_or_max_files": "not stated",
     "formats": ".doc, .docx, .pdf, .rtf, .txt",
     "source_url": "https://support.greenhouse.io/hc/en-us/articles/360052218132-Supported-formats-for-resumes-cover-letters-and-other-candidate-uploads",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -515,8 +515,8 @@
     "cap_type": "published_cap",
     "total_or_max_files": "not stated",
     "formats": "not stated",
-    "source_url": "https://help.lever.co/hc/en-us/articles/20087243347741-Configuring-your-Lever-Application-Form",
-    "date_checked": "2026-09-15",
+    "source_url": "https://help.lever.co/s/article/Configuring-your-Lever-Application-Form",
+    "date_checked": "2026-09-25",
     "confidence": "official"
   },
   {
@@ -524,13 +524,13 @@
     "country": "US",
     "usage": "Grant application package attachments (Workspace)",
     "published_cap": "200 MB suggested for the whole package; per-file limit set by each agency",
-    "cap_kb": "",
-    "cap_type": "not_documented",
+    "cap_kb": "204800",
+    "cap_type": "recommendation",
     "total_or_max_files": "200 MB total (suggested)",
     "formats": "agency-dependent (e.g. .pdf, .xls, .docx); file names max 50 characters",
     "source_url": "https://www.grants.gov/applicants/applicant-faqs.html",
-    "date_checked": "2026-09-15",
-    "confidence": "not documented per file (package-level suggestion)"
+    "date_checked": "2026-09-25",
+    "confidence": "official (suggested maximum for the whole application package; per-attachment limit set by each agency)"
   },
   {
     "portal": "FAFSA / StudentAid.gov",
@@ -542,7 +542,7 @@
     "total_or_max_files": "not stated",
     "formats": "not stated",
     "source_url": "https://studentaid.gov/help-center/answers/article/why-cant-i-upload-supporting-documents-to-status-center",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "not documented"
   },
   {
@@ -552,10 +552,10 @@
     "published_cap": "not documented (help pages state formats only)",
     "cap_kb": "",
     "cap_type": "not_documented",
-    "total_or_max_files": "not stated",
-    "formats": ".doc, .docx, .pdf, .txt, .rtf (career-advice page)",
-    "source_url": "https://www.indeed.com/help/job-seekers/articles/4408783727629-uploading-a-resume-file-to-your-profile?hl=en&co=US",
-    "date_checked": "2026-09-15",
+    "total_or_max_files": "one resume file at a time",
+    "formats": "uploaded file is auto-converted to PDF",
+    "source_url": "https://www.indeed.com/help/job-seekers/articles/11314976176141-faqs-creating-uploading-and-managing-a-resume-file?hl=en&co=US",
+    "date_checked": "2026-09-25",
     "confidence": "not documented"
   },
   {
@@ -568,7 +568,7 @@
     "total_or_max_files": "not stated",
     "formats": "not stated",
     "source_url": "https://community.workday.com/sites/default/files/file-hosting/productionapi/Recruiting/v23.2/Put_Candidate_Attachment.html",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "not documented"
   },
   {
@@ -581,20 +581,20 @@
     "total_or_max_files": "not stated",
     "formats": "not stated",
     "source_url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/dl-id-online-app-edl-44/document-verification-faqs/",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "not documented"
   },
   {
     "portal": "California EDD (UI Online)",
     "country": "US",
     "usage": "Claimant document upload (identity / address verification)",
-    "published_cap": "not documented for UI Online (SDI Online page lists formats only)",
+    "published_cap": "not documented for UI Online",
     "cap_kb": "",
     "cap_type": "not_documented",
     "total_or_max_files": "not stated",
-    "formats": "PDF, JPG, TIF, TIFF (SDI Online step 3 page)",
+    "formats": "not stated",
     "source_url": "https://edd.ca.gov/en/unemployment/identity-verification/",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "not documented"
   },
   {
@@ -607,8 +607,242 @@
     "total_or_max_files": "not stated",
     "formats": "not stated",
     "source_url": "https://sam.gov/subcontract-reports-help",
-    "date_checked": "2026-09-15",
+    "date_checked": "2026-09-25",
     "confidence": "not documented"
+  },
+  {
+    "portal": "USA Staffing Application Manager (OPM)",
+    "country": "US",
+    "usage": "Documents uploaded to a federal job application after leaving USAJOBS",
+    "published_cap": "under 5 MB",
+    "cap_kb": "5120",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "GIF, JPG, JPEG, PNG, RTF, PDF, DOC, DOCX (unencrypted, not password-protected)",
+    "source_url": "https://appsupport-usastaffing.opm.gov/hc/en-us/articles/45063179796755-Uploading-documents-to-your-application",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "Handshake",
+    "country": "US",
+    "usage": "Student documents (resume, cover letter, transcript) for job applications",
+    "published_cap": "1MB or less",
+    "cap_kb": "1024",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "PDF (preferred), DOC, DOCX",
+    "source_url": "https://support.joinhandshake.com/hc/en-us/articles/218692648-How-to-Upload-a-New-Document",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "AMCAS Letter Service (AAMC)",
+    "country": "US",
+    "usage": "Letters of evaluation uploaded for medical school applicants",
+    "published_cap": "under 5 MB",
+    "cap_kb": "5120",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "not stated on page (no password-protected files)",
+    "source_url": "https://students-residents.aamc.org/applying-medical-school-amcas/amcas-letter-service-advisors-and-other-letter-authors",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "ERAS Letter of Recommendation Portal (AAMC)",
+    "country": "US",
+    "usage": "Letters of recommendation for residency applications (ERAS)",
+    "published_cap": "1 MB",
+    "cap_kb": "1024",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "not stated on page",
+    "source_url": "https://www.aamc.org/services/eras-for-institutions/lor-portal/faq",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "LSAC electronic law school applications",
+    "country": "US",
+    "usage": "Attachments (personal statement, resume, addenda) to law school applications",
+    "published_cap": "3MB",
+    "cap_kb": "3072",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "DOC, HTM, HTML, TXT, WP, WPD, RTF, WPS, WPT, DOCX, PDF",
+    "source_url": "https://www.lsac.org/contact/jd-help-and-faqs",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "Liaison Applicant Gateway (CAS)",
+    "country": "US",
+    "usage": "Post-submission document uploads for programs using Liaison CAS (CASPA, GradCAS, etc.)",
+    "published_cap": "15 MB",
+    "cap_kb": "15360",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "not stated",
+    "source_url": "https://help.liaisonedu.com/Applicant_Gateway_Help_Center/Completing_Applicant_Gateway_Activities/Upload_Documents",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "SlideRoom (Liaison)",
+    "country": "US",
+    "usage": "Portfolio documents for arts, music and design admissions or scholarships",
+    "published_cap": "less than 10 MB (documents)",
+    "cap_kb": "10240",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "documents; images under 5 MB, audio under 30 MB, video under 250 MB",
+    "source_url": "https://help.liaisonedu.com/SlideRoom_Applicant_Help_Center/Completing_Your_SlideRoom_Application/03_Working_with_Your_Portfolio",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "Interfolio Dossier",
+    "country": "US",
+    "usage": "Academic job and fellowship application materials, confidential letters",
+    "published_cap": "under 100 MB",
+    "cap_kb": "102400",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "DOC/DOCX, XLS/XLSX, PPT/PPTX, PDF and others (see table)",
+    "source_url": "https://product-help.interfolio.com/general-account-help/accepted-file-types",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "CSS Profile / IDOC (College Board)",
+    "country": "US",
+    "usage": "Financial aid documents (tax returns, W-2s) requested by colleges through IDOC",
+    "published_cap": "no larger than 9 MB",
+    "cap_kb": "9216",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "not stated",
+    "source_url": "https://cssprofile.collegeboard.org/help-center/what-process-uploading-documents",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "eFileTexas (Tyler Technologies)",
+    "country": "US",
+    "usage": "State court e-filing in Texas (trial courts; appellate courts have other envelope limits)",
+    "published_cap": "25 MB per PDF; 35 MB per envelope",
+    "cap_kb": "25600",
+    "cap_type": "published_cap",
+    "total_or_max_files": "35 MB per envelope (Courts of Appeal 2.10 GB, Supreme Court 36.7 MB)",
+    "formats": "PDF",
+    "source_url": "https://efileandservetx.zendesk.com/hc/en-us/articles/12623900877965-What-is-the-Max-PDF-File-Size-Allowed",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "eFileIL (Illinois courts)",
+    "country": "US",
+    "usage": "State court e-filing in Illinois, circuit (trial) courts",
+    "published_cap": "25 MB per document; 50 MB per envelope",
+    "cap_kb": "25600",
+    "cap_type": "published_cap",
+    "total_or_max_files": "50 MB per envelope (Supreme and Appellate Courts: 150 MB per envelope)",
+    "formats": "OCR PDF",
+    "source_url": "https://efile.illinoiscourts.gov/wp-content/uploads/2022/10/2022_eFileIL_Electronic_Document_Standards_Revised.pdf",
+    "date_checked": "2026-09-25",
+    "confidence": "institutional (court filing rules; other courts set different limits)"
+  },
+  {
+    "portal": "NYSCEF (New York State Courts)",
+    "country": "US",
+    "usage": "New York State Courts Electronic Filing System",
+    "published_cap": "100 megabytes per PDF document",
+    "cap_kb": "102400",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "PDF (layers must be flattened)",
+    "source_url": "https://iappscontent.courts.state.ny.us/NYSCEF/live/faq.htm",
+    "date_checked": "2026-09-25",
+    "confidence": "institutional (court filing rules; other courts set different limits)"
+  },
+  {
+    "portal": "CM/ECF (S.D.N.Y.)",
+    "country": "US",
+    "usage": "Federal court e-filing, U.S. District Court for the Southern District of New York",
+    "published_cap": "15 MB per PDF",
+    "cap_kb": "15360",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "PDF",
+    "source_url": "https://www.nysd.uscourts.gov/sites/default/files/pdf/ecf_rules/ECF%20Rules%20February%202%202026%20FINAL%20v2.pdf",
+    "date_checked": "2026-09-25",
+    "confidence": "institutional (court filing rules; other courts set different limits)"
+  },
+  {
+    "portal": "CM/ECF (N.D. Cal.)",
+    "country": "US",
+    "usage": "Federal court e-filing, U.S. District Court for the Northern District of California",
+    "published_cap": "under 50 MB per file",
+    "cap_kb": "51200",
+    "cap_type": "published_cap",
+    "total_or_max_files": "several attachments allowed (court tested 7 files near 50 MB)",
+    "formats": "PDF",
+    "source_url": "https://cand.uscourts.gov/cases-e-filing/cmecf-information/preparing-your-cmecf-filing",
+    "date_checked": "2026-09-25",
+    "confidence": "institutional (court filing rules; other courts set different limits)"
+  },
+  {
+    "portal": "USPTO Patent Center",
+    "country": "US",
+    "usage": "Patent application documents filed online",
+    "published_cap": "25MB per PDF; 10MB per DOCX",
+    "cap_kb": "25600",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "DOCX, PDF, TXT, XML, PCT Zip (sequence listings TXT/XML up to 100MB)",
+    "source_url": "https://www.uspto.gov/sites/default/files/documents/Patent_Center_User_Guide_September_2025.pdf",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "California EDD (SDI Online, Paid Family Leave)",
+    "country": "US",
+    "usage": "Uploading continued claim forms and documents in SDI Online (myEDD)",
+    "published_cap": "less than 5MB",
+    "cap_kb": "5120",
+    "cap_type": "published_cap",
+    "total_or_max_files": "up to 5 files per session",
+    "formats": "PDF, JPG, TIF, TIFF",
+    "source_url": "https://edd.ca.gov/en/disability/paid-family-leave/step-6-manage-benefits/",
+    "date_checked": "2026-09-25",
+    "confidence": "official"
+  },
+  {
+    "portal": "Texas Workforce Commission (UI Submission Portal)",
+    "country": "US",
+    "usage": "Documents requested from unemployment claimants",
+    "published_cap": "up to 7 MB",
+    "cap_kb": "7168",
+    "cap_type": "published_cap",
+    "total_or_max_files": "not stated",
+    "formats": "pdf, jpg, jpeg, tiff, png",
+    "source_url": "https://www.twc.texas.gov/services/apply-benefits",
+    "date_checked": "2026-09-25",
+    "confidence": "official (read on the Wayback Machine copy of 2026-08-23; the live page blocks non-U.S. visitors)"
+  },
+  {
+    "portal": "Dynamic Forms (NGWeb Solutions)",
+    "country": "US",
+    "usage": "Financial aid verification forms and document uploads at colleges using Dynamic Forms",
+    "published_cap": "varies by school (3 MB to 25 MB)",
+    "cap_kb": "",
+    "cap_type": "not_documented",
+    "total_or_max_files": "not stated",
+    "formats": "PDF (most schools)",
+    "source_url": "https://www.ucf.edu/financial-aid/question/what-should-i-do-if-my-document-is-larger-than-the-maximum-size-limit-60-mb/",
+    "date_checked": "2026-09-25",
+    "confidence": "institutional (no vendor limit; each school sets its own, e.g. UCF 3 MB, Marshall 3 MB, UCA 25 MB, South Carolina 25 MB)"
   },
   {
     "portal": "Reed.co.uk",

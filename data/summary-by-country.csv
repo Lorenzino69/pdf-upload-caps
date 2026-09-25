@@ -1,6 +1,6 @@
 "country","country_name","entries","published_caps","recommendations","not_documented","min_cap_kb","median_cap_kb","max_cap_kb"
 "FR","France","29","22","0","7","500","5120","204800"
-"US","United States","18","10","1","7","2000","20480","102400"
+"US","United States","36","27","2","7","1024","15360","102400"
 "UK","United Kingdom","12","8","0","4","1024","5632","102400"
 "DE","Germany","30","17","1","12","3072","10240","204800"
 "ES","Spain","30","22","1","7","2048","10240","102400"

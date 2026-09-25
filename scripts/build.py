@@ -29,9 +29,9 @@ FIELDS = [
 def cap_type(row):
     if not row['cap_kb'].strip():
         return 'not_documented'
-    # LinkedIn publishes a recommended size, not a limit. It stays in the
+    # LinkedIn and Grants.gov publish a recommended size, not a limit. They stay in the
     # data but is left out of the medians.
-    if row['portal'] == 'LinkedIn':
+    if row['portal'] in ('LinkedIn', 'Grants.gov'):
         return 'recommendation'
     return 'published_cap'
 
